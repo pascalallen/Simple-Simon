@@ -1,0 +1,99 @@
+body{
+  background-image: url("/img/grass_texture.png");
+  background-color: #7CFC00;
+}
+
+.wrapper{
+  position: relative;
+  width:640px;
+  margin:0 auto;
+}
+
+.game{
+  position: absolute;
+  top:0px;
+  width:640px;
+  height: 640px;
+  z-index:0;
+  background-color: #fbb;
+  border-radius: 310px;
+}
+
+.pad{
+  width: 300px;
+  height: 300px;
+  float: left;
+  z-index: 1;
+  margin: 10px;
+  opacity: 0.4;
+  outline: none;
+  border-color: #fbb;
+}
+
+.green{
+  border-top-left-radius: 300px;
+  background-color: green;
+}
+
+.red{
+  float: left;
+  border-top-right-radius: 300px;
+  background-color: red;
+  clear: right;
+}
+
+.yellow{
+  float: left;
+  border-bottom-left-radius: 300px;
+  background-color: yellow;
+  clear: left;
+}
+
+.blue{
+  float: left;
+  border-bottom-right-radius: 300px;
+  background-color: blue;
+}
+
+.start{
+  position: absolute;
+  top: 200px;
+  left: 195px;
+  width: 250px;
+  height: 250px;
+  background: #fbb;
+  border-radius: 125px;
+  z-index: 10;
+  outline: none;
+  border-color: #fbb;
+  border-style: inset;
+  color: #CCCC00;
+  font-family: Prime;
+  src: url("Prime_Regular.otf");
+  font-size: 60px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.level{
+  width: 20%;
+  float: left;
+  text-align: center;
+  color: #CCCC00;
+  font-family: Prime;
+  src: url("Prime_Regular.otf");
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.score{
+  width: 45%;
+  float: right;
+  text-align: center;
+  color: #CCCC00;
+  font-family: Prime;
+  src: url("Prime_Regular.otf");
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2{
+  font-size: 60px;
+}

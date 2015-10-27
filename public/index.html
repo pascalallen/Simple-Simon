@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<title>Simple Simon Game</title>
+	<!-- BOOTSTRAP -->
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<!-- CUSTOM CSS -->
+	<link rel="stylesheet" type="text/css" href="/css/simplesimon.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="game">
+			<button class="pad green" data-number="0">
+				<audio preload="auto" id="sound0" data-pad="1">
+					<source src="sounds/sounds_01.mp3" type="audio/mpeg">
+					</audio>
+			</button>
+			<button class="pad red" data-number="1">
+				<audio preload="auto" id="sound1" data-pad="2">
+					<source src="sounds/sounds_02.mp3" type="audio/mpeg">
+					</audio>
+			</button>
+			<button class="pad yellow" data-number="2">
+				<audio preload="auto" id="sound2" data-pad="3">
+					<source src="sounds/sounds_03.mp3" type="audio/mpeg">
+					</audio>
+			</button>
+			<button class="pad blue" data-number="3">
+				<audio preload="auto" id="sound3" data-pad="4">
+					<source src="sounds/sounds_04.mp3" type="audio/mpeg">
+					</audio>
+			</button>
+		</div>
+		<button class="start">Start</button>	
+	</div>
+	<div class="level">
+      <h2>Level: <span id="level"></span></h2>
+    </div>
+    <div class="score">
+      <h2>Score: <span id="score"></span></h2>
+    </div>
+
+	<!-- JQUERY -->
+	<script src="/js/jquery-2.1.4.min.js"></script>
+	<!-- CUSTOM JAVASCRIPT -->
+	<script src="/js/simplesimon.js"></script>
+</body>
+</html>
