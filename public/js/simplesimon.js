@@ -35,7 +35,7 @@ $(document).ready(function() {
 			setTimeout(function(){
 				$("#sound" + color_num).get(0).play();
 				animateColor(color_num);
-			}, (1000 * (index + 1)))
+			}, (300 * (index + 1)))
 		});
 	}
 
